@@ -81,13 +81,13 @@ unmodList=[
     "Limited Quanity Bundle",
     "Overpriced Bundle",
     "Expensive Limited Quantity Item",
-    "Exclusive Sale Kinegg",
+    "Exclusive Sales Kinegg",
     "Kindred RIG with terrible odds and old Kineggs",
     "Expensive Kindred RIG",
     "No paw version of kin drop",
     "Kin item comes with a unique or useful pose",
-    "Sale kin is OP",
-    "Sale kin is the strongest kin in the game",
+    "Sales kin is OP",
+    "Sales kin is the strongest kin in the game",
     "Sales Hub thread is \"Heated\""
     
 
