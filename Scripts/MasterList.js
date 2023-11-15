@@ -19,6 +19,7 @@ unmodList=[
     "Another zodiac theme",
     "Celestial/Heavenly theme",
     "Magical Fantasy RPG theme",
+    "Sun/Moon theme",
     "New and unique sale theme",
     "Alchemy",
     "Another trunk RIG",
@@ -74,7 +75,7 @@ unmodList=[
     "Sale backgrounds are freebies",
     "Item has recycled poses",
     "Only 1 new masculine item in the entire sale",
-    "Masculine item is super buff muscleman",
+    "Masculine item is overly bara",
     "Masculine item is elegant formalwear",
     "Sitting masculine legs",
     "Awkward standing pose",
@@ -88,7 +89,14 @@ unmodList=[
     "Kin item comes with a unique or useful pose",
     "Sales kin is OP",
     "Sales kin is the strongest kin in the game",
-    "Sales Hub thread is \"Heated\""
-    
+    "Sales Hub thread is \"Heated\"",
+    "Miyhoverse reference",
+    "FF14 reference",
+    "Prisma item as exclusive in Grab Bag",
+    "Prisma item is an exclusive in a RIG",
+    "Prisma item has low drop rate",
+    "Prisma item is direct buy",
+    "Prisma item is overpriced",
+    "Background is the best pose"
 
 ];
