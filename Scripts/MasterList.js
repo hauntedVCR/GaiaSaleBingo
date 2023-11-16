@@ -90,7 +90,7 @@ unmodList=[
     "Sales kin is OP",
     "Sales kin is the strongest kin in the game",
     "Sales Hub thread is \"Heated\"",
-    "Miyhoverse reference",
+    "Mihoyoverse reference",
     "FF14 reference",
     "Prisma item as exclusive in Grab Bag",
     "Prisma item is an exclusive in a RIG",
