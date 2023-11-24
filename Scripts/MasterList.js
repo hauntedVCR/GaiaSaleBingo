@@ -45,5 +45,5 @@ unmodList=[
     "Prisma Bundle",
     "Homepage banner shows new sales items before release",
     "Staff leaks an item before release",
-    "Waking up early to nab an item"
+    "Waking up early to buy an item"
 ]
