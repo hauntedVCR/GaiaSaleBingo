@@ -103,6 +103,23 @@ footer{
     justify-items: center;
 }
 
+.devMode{
+    opacity: 0;
+    transform: scale(1.5);
+}
+
+.devModeOn{
+    opacity: 1;
+}
+
+label{
+    display:none;
+}
+
+.devLabelOn{
+    display: contents;
+    color:white;
+}
 
 .sideBar1{
     display: inline-grid;
@@ -241,8 +258,13 @@ footer{
 /*Light Mode Css*/
 body.lightMode{
 
-   /* background-color: #ede4b267;*/
-   background: linear-gradient(#ff008385,#cd6cd25e,#66f1ff52);	
+    /*background-color: #ede4b267;*/
+    background: linear-gradient(#ff008385,#cd6cd25e,#66f1ff52);
+}
+
+.devLabelOn.lightMode{
+    display: contents;
+    color:black;
 }
 
 .sideBar1.lightMode{
@@ -316,3 +338,5 @@ footer.lightMode{
 #bingo tr td.lightMode.greensquare:hover, #bingo tr td.lightMode.greensquare.hover {
 	background:#D5F9CA;
 }
+
+
