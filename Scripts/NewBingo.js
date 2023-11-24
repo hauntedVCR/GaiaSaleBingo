@@ -20,6 +20,10 @@ function shuffle(){
     var current_index;
     var rand_index;
 
+    if($(".Dev_mode").is(":checked")){
+        modList=unmodDevList.slice();
+    }
+
     //populate the array
     for(i=0; i<24; i++){
         rand_index=Math.floor(Math.random() * modList.length);
@@ -46,10 +50,13 @@ function resetClass(){
 }
 
 function newCard(){
-    resetClass();
-    var finalList=shuffle();
-    fillTable(finalList);
 
+        resetClass();
+        var finalList=shuffle();
+        fillTable(finalList);
+    
+
+    
 }
 
 //initalization of table and hover fns
