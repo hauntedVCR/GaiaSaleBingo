@@ -20,7 +20,7 @@ function shuffle(){
     var current_index;
     var rand_index;
 
-    if($(".Dev_mode").is(":checked")){
+    if($(".devMode").is(":checked")){
         modList=unmodDevList.slice();
     }
 
@@ -50,13 +50,9 @@ function resetClass(){
 }
 
 function newCard(){
-
         resetClass();
         var finalList=shuffle();
         fillTable(finalList);
-    
-
-    
 }
 
 //initalization of table and hover fns
