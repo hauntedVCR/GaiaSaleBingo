@@ -38,4 +38,10 @@ function darkModeSwitch(){
 	$("#bingo").toggleClass(LM);
 	$("footer").toggleClass(LM);
 	$("td").toggleClass(LM);
+	$("label").toggleClass(LM);
+}
+
+function devMode(){
+	$("label").toggleClass("devLabelOn");
+	$(".devMode").toggleClass("devModeOn");
 }

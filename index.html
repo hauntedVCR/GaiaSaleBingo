@@ -13,6 +13,7 @@
     <meta property="og:image:height" content="119">
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="./Scripts/DevList.js"></script>
     <script src="./Scripts/MasterList.js"></script>
     <script src="./Scripts/NewBingo.js"></script>
     <script src="./Scripts/toggle.js"></script>
@@ -24,7 +25,11 @@
 </head>
 <body onload="init()">
 <div class="wrapper">
-    <div class="headerBanner"><img src="Images/bfs_23.png" alt=""></div>
+    <div class="headerBanner">
+        <img src="Images/bfs_23.png" alt="">
+        <input type="checkbox" class="devMode" onclick="devMode()"><label>Dev Mode on</label>
+    
+    </div>
     <div class="sideBar1">
         <h2>Gaia Sale Bingo</h2>
 			<p>Bingo board for the seasonal Gaia Sale. Card entries will be updated periodically. Have fun and don't take this too
