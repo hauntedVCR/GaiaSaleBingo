@@ -101,6 +101,7 @@ unmodList=[
     "Monthly Collectible Bundle",
     "Flair RIG",
     "Flairs Bundle",
-    "Masculine item is vaguely masculine"
+    "Masculine item is vaguely masculine",
+    "Sporkles"
 
 ];
