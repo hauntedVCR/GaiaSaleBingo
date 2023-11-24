@@ -241,7 +241,8 @@ footer{
 /*Light Mode Css*/
 body.lightMode{
 
-    background-color: #ede4b267;
+   /* background-color: #ede4b267;*/
+   background: linear-gradient(#ff008385,#cd6cd25e,#66f1ff52);	
 }
 
 .sideBar1.lightMode{
@@ -276,6 +277,7 @@ footer.lightMode{
 
 #bingo.lightMode tr td{
     box-shadow:inset 0 0 50px #FEE6E5;
+    background-color: #f9f4dec9;
 }
 
 #bingo tr td.lightMode.greensquare {
