@@ -97,6 +97,9 @@ unmodList=[
     "Prisma item has low drop rate",
     "Prisma item is direct buy",
     "Prisma item is overpriced",
-    "Background is the best pose"
+    "Background is the best pose",
+    "Monthly  Collectible Bundle",
+    "Flairs RIG",
+    "Flairs Bundle"
 
 ];
