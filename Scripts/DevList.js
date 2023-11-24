@@ -102,7 +102,6 @@ unmodDevList=[
     "Flair RIG",
     "Flairs Bundle",
     "Masculine item is vaguely masculine",
-     /*New suggestions start here */
      "Past Sales item not discounted",
      "Direct Buy the Most Expensive Tickets",
      "Staff leaks an item before release"
