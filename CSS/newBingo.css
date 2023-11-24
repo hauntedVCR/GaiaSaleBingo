@@ -112,12 +112,7 @@ footer{
     opacity: 1;
 }
 
-label{
-    display:none;
-}
-
-.devLabelOn{
-    display: contents;
+.devLabel{
     color:white;
 }
 
@@ -127,7 +122,6 @@ label{
     grid-column: 1/3;
     color: white;
 }
-
 
 .bingoTable{
 
@@ -254,16 +248,13 @@ label{
 	background:#072;
 }
 
-
 /*Light Mode Css*/
 body.lightMode{
-
     /*background-color: #ede4b267;*/
     background: linear-gradient(#ff008385,#cd6cd25e,#66f1ff52);
 }
 
-.devLabelOn.lightMode{
-    display: contents;
+.devLabel.lightMode{
     color:black;
 }
 
