@@ -4,6 +4,7 @@ unmodList=[
     "Celestial/Heavenly theme",
     "Magical Fantasy RPG theme",
     "Sun/Moon theme",
+    "Artists' persona theme",
     "Theme is a reference to old Gaia lore",
     "Ossidian vs Solair theme",
     "New and unique sales theme",
