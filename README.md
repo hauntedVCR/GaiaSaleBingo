@@ -7,3 +7,8 @@ This was a project that was sparked by a gaia user's comment about making a bing
 - [x] Dark mode toggle
 - [x] Supports mobile view
 - [x] Cards no longer with have repeats
+
+## Upcoming features
+- [ ] Generate cards based on seeds
+- [ ] Add ability to enter a seed to generate card
+- [ ] Add a way to keep dark/light mode setting upon refresh
