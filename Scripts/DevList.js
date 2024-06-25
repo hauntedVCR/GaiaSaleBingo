@@ -103,8 +103,11 @@ unmodDevList=[
     "Flair RIG",
     "Flairs Bundle",
     "Masculine item is vaguely masculine",
-     "Past Sales item not discounted",
-     "Direct Buy the Most Expensive Tickets",
-     "Staff leaks an item before release"
-
+    "Past Sales item not discounted",
+    "Direct Buy the Most Expensive Tickets",
+    "Staff leaks an item before release",
+    "Kin is a horse/pony",
+    "Kin is a bunny",
+    "Kin is a cat",
+    "Kin is not a horse/bunny/cat"
 ];
