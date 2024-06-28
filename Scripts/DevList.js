@@ -43,7 +43,7 @@ unmodDevList=[
     "Item uses one of the newer cutters",
     "\"Bought extra GC for the Sale.\"",
     "\"My GC is safe.\"",
-    "\"Looks like a I have to wake up in the middle of the night to buy pixels.\"",
+    "\"Looks like I have to wake up in the middle of the night to buy pixels.\"",
     "\"Schedule is not NA friendly.\"",
     "\"I don't like X item, except for the 1 non-clothing pose.\"", 
     "\"Hope I can buy X item on the MP!\"",
