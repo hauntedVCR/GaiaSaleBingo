@@ -15,13 +15,14 @@ function fillTable(finalList){
 
 function shuffle(){
 
-    var modList=unmodList.slice();
+    var modList=unmodList.slice();		
     var finalList=[];
     var current_index;
     var rand_index;
 
-    if($(".devMode").is(":checked")){
-        modList=unmodDevList.slice();
+    if($(".devMode").is(":checked")){ 
+       //merges the copies of the dev and nondev lists
+	modList=$.merge(modList,unmodDevList.slice());		    
     }
 
     //populate the array
@@ -55,8 +56,9 @@ function newCard(){
         fillTable(finalList);
 }
 
-//initalization of table and hover fns
+//initalization of website fns
 function init(){
+    bannerSwitcher();		
     tableHover();
     newCard();
 }
