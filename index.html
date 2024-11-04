@@ -11,10 +11,14 @@
     <meta property="og:image" content="https://raw.githubusercontent.com/hauntedVCR/GaiaSaleBingo/main/Images/preview.jpg">
     <meta property="og:image:width" content="541">
     <meta property="og:image:height" content="119">
-    <!-- Scripts -->
+    <!--Third party CDN -->
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.11.0/sha256.min.js"></script>
+    <!-- Scripts -->
     <script src="./Scripts/DevList.js"></script>
     <script src="./Scripts/MasterList.js"></script>
+    <script src="./Scripts/Generator.js"></script>
     <script src="./Scripts/NewBingo.js"></script>
     <script src="./Scripts/toggle.js"></script>
     <!--END-->
@@ -28,25 +32,29 @@
     <div class="headerBanner">
         <img src="Images/summer_sale.png" alt="">
         <input type="checkbox" class="devMode" onclick="devMode()"><label class="devLabel">Dev Mode on</label>
-    
     </div>
     <div class="sideBar1">
         <h2>Gaia Sale Bingo</h2>
-			<p>Bingo board for the seasonal Gaia Sale. Card entries will be updated periodically. Have fun and don't take this too
-                seriously.
+			<p>Bingo board for the seasonal Gaia Sale. Card entries will be updated periodically. Have fun!
             </p>
-            <div class="newCardBtn">
-                <button type="button" onclick="newCard()">Generate New Card</button>
+        <h3>How to play</h3>
+        <p class="How_to">Click "Generate Card" and generate your bingo card. You can use the generate seed or enter your own.</p>
             </div>
-            <div>
+            <div class="Seeder">
+                <label>Seed:</label>
+                <input type="text" name="Seed" class="seedInput" maxlength="25">
+            </div>
+            <div class="newCardBtn">
+                <button type="button" onclick="newCard()">Generate Card</button>
+            </div>
+            <div class="darkModeToggle">
                 <input type="checkbox" class="checkbox" id="checkbox" onclick="darkModeSwitch()">
                 <label for="checkbox" class="checkbox-label">
                     <i class="bi bi-moon-fill"></i>
                   <i class="bi bi-sun-fill"></i>
                   <span class="ball"></span>
                 </label>
-                
-            </div>
+            </div> 
     </div>
     <div class="bingoTable">
         <table id="bingo"><tbody>
@@ -102,7 +110,7 @@
     </div>
     <footer>
         <span class="note right">Source code inspired by <a href="speedruntools.com/bingo" id="SRTlink">speedruntools.com/bingo</a>. 
-            &nbsp;&nbsp; Last modified: <a href="https://github.com/hauntedVCR/GaiaSaleBingo/tree/main">11/23/23</a></span> 
+            &nbsp;&nbsp; Last modified: <a href="https://github.com/hauntedVCR/GaiaSaleBingo/tree/main">11/8/24</a></span> 
     </footer>
 </div>
 </body>
