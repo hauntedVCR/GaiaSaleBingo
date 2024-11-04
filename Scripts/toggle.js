@@ -45,3 +45,15 @@ function devMode(){
 	$(".devMode").toggleClass("devModeOn");
 	$(".devLabel").toggle();
 }
+
+function bannerSwitcher() {
+	var date= new Date();  
+	var month= date.getMonth();
+	var getImg;
+
+	if(month>2 && month<11){
+		//switch Banner when it is btwn April and October
+		getImg=$(".headerBanner img")[0]; //convert to html element
+		$(getImg).attr("src","Images/summer_sale.png") //switches the src with summer Banner here
+	}
+}
