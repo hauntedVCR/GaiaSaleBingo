@@ -22,7 +22,7 @@ unmodList=[
 {slot:"Direct Buy Tickets", found: false},
 {slot:"Sale themed flairs", found: false},
 {slot:"Last day sales grab bag", found: false},
-{slot:"Bundle Exclusive recolor", found: false},
+{slot:"Bundle Exclusive", found: false},
 {slot:"Themed Bundles", found: false},
 {slot:"SDPlus Select boxes", found: false},
 {slot:"Accessory sets", found: false},
@@ -45,12 +45,4 @@ unmodList=[
 {slot:"Prisma Bundle", found: false},
 {slot:"Homepage banner shows new sales items before release", found: false},
 {slot:"Staff leaks an item before release", found: false},
-{slot:"Waking up early to nab an item", found: false},
-/*new*/
-{slot:"Misleading advertisement", found: false},
-{slot:"Pokemon reference", found: false},
-{slot:"Paw item", found: false},
-{slot:"Kin is a recolor", found: false},
-{slot:"Rectangle silhouette", found: false},
 ];
-
