@@ -1,4 +1,3 @@
-
 function tableHover(){
     $("#row1").hover(function() { $(".row1").toggleClass("hover"); });
     $("#row2").hover(function() { $(".row2").toggleClass("hover"); });
@@ -45,3 +44,16 @@ function devMode(){
 	$(".devMode").toggleClass("devModeOn");
 	$(".devLabel").toggle();
 }
+
+function bannerSwitcher() {
+	var date= new Date();  
+	var month= date.getMonth();
+	var getImg;
+
+	if(month>3 && month<10){
+		//set to Summer Banner
+		getImg=$(".headerBanner img")[0]; //convert to html element
+		$(getImg).attr("src","Images/summer_sale.png")
+	}
+}
+
