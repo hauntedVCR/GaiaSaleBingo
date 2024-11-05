@@ -80,4 +80,5 @@ unmodDevList=[
     {slot:"Background is the best pose", found: false},
     {slot:"Masculine item is vaguely masculine", found: false},
     {slot:"Past Sales item not discounted", found: false},
+    {slot:"Direct Buy the Most Expensive Tickets", found: false}
 ];
