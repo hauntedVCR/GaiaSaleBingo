@@ -1,7 +1,7 @@
 
 function tableHover(){
-    $("#row1").hover(function() { $(".row1").toggleClass("hover"); });
-    $("#row2").hover(function() { $(".row2").toggleClass("hover"); });
+    	$("#row1").hover(function() { $(".row1").toggleClass("hover"); });
+    	$("#row2").hover(function() { $(".row2").toggleClass("hover"); });
 	$("#row3").hover(function() { $(".row3").toggleClass("hover"); });
 	$("#row4").hover(function() { $(".row4").toggleClass("hover"); });
 	$("#row5").hover(function() { $(".row5").toggleClass("hover"); });
