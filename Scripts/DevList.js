@@ -5,7 +5,6 @@ unmodDevList=[
     {slot:"Pretty background item", found: false},
     {slot:"Sales theme background", found: false},
     {slot:"Item easily ID'd by artist's recognizable style", found: false},
-    {slot:"Homepage banner shows new sales items before release", found: false},
     {slot:"Item that looks a bit too crunchy", found: false},
     {slot:"Obligatory unisex item", found: false},
     {slot:"Obligatory paw item", found: false},
@@ -82,8 +81,7 @@ unmodDevList=[
     {slot:"Background is the best pose", found: false},
     {slot:"Masculine item is vaguely masculine", found: false},
     {slot:"Past Sales item not discounted", found: false},
-    {slot:"Direct Buy the Most Expensive Tickets", found: false},
-    {slot:"Staff leaks an item before release", found: false}
+    {slot:"Direct Buy the Most Expensive Tickets", found: false}
     /*New suggestions start here */
 
 ];
