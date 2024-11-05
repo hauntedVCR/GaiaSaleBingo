@@ -3,10 +3,10 @@ This was a project that was sparked by a gaia user's comment about making a bing
 
 [Gaia Sales Bingo](https://hauntedvcr.github.io/GaiaSaleBingo/)
 
-## V0.2.1 Notes
+## V0.2.2 Notes
 - [x] Generate cards based on seeds
 - [x] Add ability to enter a seed to generate card
-  * Minor code clean up and optmization
+  * Major code clean up and optmization
 
 ## V0.1.3 Notes
 - [x] Update script to automatically change the banner during the appropriate sale time
