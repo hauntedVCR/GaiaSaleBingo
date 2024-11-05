@@ -6,7 +6,7 @@ This was a project that was sparked by a gaia user's comment about making a bing
 ## V0.2.2 Notes
 - [x] Generate cards based on seeds
 - [x] Add ability to enter a seed to generate card
-  * Major code clean up and optmization
+  * Major code clean up and optimization
 
 ## V0.1.3 Notes
 - [x] Update script to automatically change the banner during the appropriate sale time
