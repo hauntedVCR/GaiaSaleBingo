@@ -1,0 +1,351 @@
+@media only screen and (min-width: 1300px) {
+    div.wrapper{
+        grid-template-columns: 3fr 1fr;
+    }
+    
+    div.sideBar1{
+        grid-column: 2/3;
+        grid-row: 2;
+    }
+
+    div.bingoTable{
+        grid-row: 2/4;
+    }
+
+    div>p{
+        text-align: unset;
+    }
+
+    #bingo{
+        right: -155px;
+    }
+}
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: auto;
+}
+
+body{
+
+    display: grid;
+    margin: 0;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    width: 65%;
+    max-width: fit-content;
+    height: auto;
+}
+
+h2{
+    margin-bottom: 0px;
+}
+
+h3{
+    margin: 0;
+}
+
+p{
+    width: 70%;
+    font-size: 89%;
+    text-align:center;
+}
+
+/*new card button*/
+button {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    margin: 4px 2px 4px 6px;
+    text-decoration: none;
+    padding: 4px 18px;
+    text-align: center;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border-left: 2px solid #2339A4;
+    border-right: 2px solid #1A2A88;
+    border-top: 2px solid #244CA6;
+    border-bottom: 2px solid #192686;
+    background-color: #1E3294;
+    background: -moz-linear-gradient(top, #2045C0 0%, #1E3294 100%);
+}
+
+footer{
+
+    display: inline-grid;
+    grid-column: 1/3;
+    justify-items: center;
+    color: white;
+    font-size: 65%;
+}
+
+/*===CLASS/ID CSS===*/
+
+.wrapper{
+
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto 1fr;
+    grid-template-rows: max-content;
+
+}
+
+.headerBanner{
+    display: inline-grid;
+    grid-column: 1/3;
+    justify-items: center;
+}
+
+.devMode{
+    opacity: 0;
+    transform: scale(1.5);
+}
+
+.devModeOn{
+    opacity: 1;
+}
+
+.devLabel{
+    display: none;
+    color:white;
+}
+
+.sideBar1{
+    display: inline-grid;
+    justify-items: center;
+    color: white;
+}
+
+.How_to{
+    font-size: 75%;
+}
+
+.Seeder{
+    padding: 10px 0px ;
+}
+
+.seedInput{
+    width: 50%;
+}
+
+.bingoTable{
+
+    display: inline-grid;
+    justify-items: center;
+    grid-column: 1;
+}
+
+/*dark/light mode toggle*/
+.checkbox {
+    opacity: 0;
+    position: relative;
+  }
+
+.checkbox-label {
+    background-color: #282563;
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bi.bi-moon-fill {color: #111;}
+  
+  .bi.bi-sun-fill {color: #ffdb00;}
+  
+  .checkbox-label .ball {
+    background-color: #fff;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+  
+  .checkbox:checked + .checkbox-label .ball {
+    transform: translateX(30px);
+  }
+
+/*Bingo card style*/
+
+#bingo{
+    position: relative;
+    border-collapse: collapse;
+    margin: 15px 0px;
+    color: white;
+    table-layout: fixed;
+    display: inline-grid;
+    grid-template-columns:max-content
+}
+
+#bltr.popout{
+    width: 36px;
+}
+
+#bingo .rowcol {
+	border:1px #0a245a solid;
+	color:#3c70df;
+	font-size:75%;
+	font-weight:700;
+}
+
+ #bingo tr:first-child td, #bingo tr:last-child td {
+	border:1px #0a245a solid;
+	color:#3c70df;
+	font-size:75%;
+	font-weight:700;
+	height:30px;
+}
+
+ #bingo tr:first-child td:hover, #bingo tr:last-child td:hover {
+	background:#1448b3;
+	color:#fff;
+}
+
+ #bingo tr td {
+	-moz-box-shadow:inset 0 0 50px rgba(0,0,0,0.6);
+	-webkit-box-shadow:inset 0 0 50px rgba(0,0,0,0.6);
+	border:1px #424242 solid;
+	box-shadow:inset 0 0 50px #00000099;
+	cursor:pointer;
+	padding:0 5px;
+	text-align:center;
+    height:120px;
+	width:120px;
+    font-size: 85%;
+    word-wrap: break-word;
+}
+
+ #bingo tr td:first-child {
+	border:1px #0a245a solid;
+	color:#3c70df;
+	font-size:75%;
+	font-weight:700;
+	width:35px;
+}
+
+/*Hover*/
+ #bingo .rowcol:hover {
+	background:#1448b3;
+	color:#fff;
+}
+
+#bingo tr td:first-child:hover {
+	background:#1448b3;
+	color:#fff;
+}
+
+#bingo tr td:hover, #bingo tr td.hover {
+	background:#001a36;
+	color:#fff;
+}
+
+#bingo tr td.greensquare {
+	background:#051;
+}
+
+#bingo tr td.greensquare:hover, #bingo tr td.greensquare.hover {
+	background:#072;
+}
+
+
+/*Light Mode Css*/
+body.lightMode{
+
+    /*background-color: #ede4b267;*/
+    background: linear-gradient(#ff008385,#cd6cd25e,#66f1ff52);
+}
+
+.devLabel.lightMode{
+    color:black;
+}
+
+.sideBar1.lightMode{
+
+    color: black;
+}
+
+button.lightMode{
+    color:#111;
+    border-left: 2px solid #BCD6DD;
+    border-right: 2px solid #bee1ea;
+    border-top: 2px solid #d2e9e7;
+    border-bottom: 2px solid #a4b6d4;
+    background: #D8F7F7;
+}
+
+.checkbox-label.lightMode{
+
+    background-color: #B4DABB;
+}
+
+footer.lightMode{
+
+    color:black;
+}
+
+/*Bingo Card*/
+#bingo.lightMode{
+    color: black;
+
+}
+
+#bingo.lightMode tr td{
+    box-shadow:inset 0 0 50px #FEE6E5;
+    background-color: #f9f4dec9;
+}
+
+#bingo tr td.lightMode.greensquare {
+	background:#caffad;
+}
+
+#bingo tr td.lightMode:first-child  {
+	border:1px #85a9e4 solid;
+}
+
+#bingo tr:first-child td.lightMode, #bingo tr:last-child td.lightMode {
+	border:1px #85a9e4 solid;
+}
+
+#bingo.lightMode tr td {
+	border:1px #a5a5a5 solid;
+
+}
+/*hover lightmode*/
+
+#bingo.lightMode .rowcol:hover {
+	background:#c9ffffbf;
+	color:#131313;
+}
+
+#bingo.lightMode tr td:first-child:hover {
+	background:#c9ffffbf;
+	color:#131313;
+}
+
+#bingo.lightMode tr td:hover, #bingo.lightMode tr td.hover {
+	background:#c9ffffbf;
+	color:#131313;
+}
+
+#bingo tr td.lightMode.greensquare:hover, #bingo tr td.lightMode.greensquare.hover {
+	background:#D5F9CA;
+}
+
+
