@@ -45,4 +45,5 @@ unmodList=[
 {slot:"Prisma Bundle", found: false},
 {slot:"Homepage banner shows new sales items before release", found: false},
 {slot:"Staff leaks an item before release", found: false},
+{slot:"Waking up early to nab an item", found: false}
 ];
