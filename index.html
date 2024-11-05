@@ -23,6 +23,7 @@
     <script src="./Scripts/Generator.js"></script>
     <script src="./Scripts/NewBingo.js"></script>
     <script src="./Scripts/toggle.js"></script>
+    <script src="./Scripts/DocListeners.js"></script>
     <!--END-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./CSS/newBingo.css">
@@ -47,10 +48,10 @@
                 <input type="text" name="Seed" class="seedInput" maxlength="25">
             </div>
             <div class="newCardBtn">
-                <button type="button" onclick="newCard()">Generate Card</button>
+                <button type="button">Generate Card</button>
             </div>
             <div class="darkModeToggle">
-                <input type="checkbox" class="checkbox" id="checkbox" onclick="darkModeSwitch()">
+                <input type="checkbox" class="checkbox" id="checkbox">
                 <label for="checkbox" class="checkbox-label">
                     <i class="bi bi-moon-fill"></i>
                   <i class="bi bi-sun-fill"></i>
@@ -62,49 +63,49 @@
     <div class="bingoTable">
         <table id="bingo"><tbody>
             <tr>
-                <td class="popout" id="tlbr" onclick="toggleLines(this)">TL-BR</td>
-                <td class="popout" id="col1" onclick="toggleLines(this)">COL1</td>
-                <td class="popout" id="col2" onclick="toggleLines(this)">COL2</td>
-                <td class="popout" id="col3" onclick="toggleLines(this)">COL3</td>
-                <td class="popout" id="col4" onclick="toggleLines(this)">COL4</td>
-                <td class="popout" id="col5" onclick="toggleLines(this)">COL5</td>
-                <td class="popout" id="bltr" onclick="toggleLines(this)">BL-TR</td>
+                <td class="popout" id="tlbr">TL-BR</td>
+                <td class="popout" id="col1">COL1</td>
+                <td class="popout" id="col2">COL2</td>
+                <td class="popout" id="col3">COL3</td>
+                <td class="popout" id="col4">COL4</td>
+                <td class="popout" id="col5">COL5</td>
+                <td class="popout" id="bltr">BL-TR</td>
             </tr>
             <tr>
-                <td class="popout" id="row1" onclick="toggleLines(this)">ROW1</td>
-                <td class="row1 col1 tlbr" id="slot1" onclick="squareToggle(this)"></td> 
-                <td class="row1 col2" id="slot2" onclick="squareToggle(this)"></td> 
-                <td class="row1 col3" id="slot3" onclick="squareToggle(this)"></td> 
-                <td class="row1 col4" id="slot4" onclick="squareToggle(this)"></td> 
-                <td class="row1 col5 bltr" id="slot5" onclick="squareToggle(this)"></td> 
+                <td class="popout" id="row1">ROW1</td>
+                <td class="row1 col1 tlbr" id="slot1"></td> 
+                <td class="row1 col2" id="slot2"></td> 
+                <td class="row1 col3" id="slot3"></td> 
+                <td class="row1 col4" id="slot4"></td> 
+                <td class="row1 col5 bltr" id="slot5"></td> 
             </tr><tr> 
-                <td class="popout" id="row2" onclick="toggleLines(this)">ROW2</td>
-                <td class="row2 col1" id="slot6" onclick="squareToggle(this)"></td> 
-                <td class="row2 col2 tlbr" id="slot7" onclick="squareToggle(this)"></td> 
-                <td class="row2 col3" id="slot8" onclick="squareToggle(this)"></td> 
-                <td class="row2 col4 bltr" id="slot9" onclick="squareToggle(this)"></td> 
-                <td class="row2 col5" id="slot10" onclick="squareToggle(this)"></td> 
+                <td class="popout" id="row2">ROW2</td>
+                <td class="row2 col1" id="slot6"></td> 
+                <td class="row2 col2 tlbr" id="slot7"></td> 
+                <td class="row2 col3" id="slot8"></td> 
+                <td class="row2 col4 bltr" id="slot9"></td> 
+                <td class="row2 col5" id="slot10"></td> 
             </tr><tr> 
-                <td class="popout" id="row3" onclick="toggleLines(this)">ROW3</td>
-                <td class="row3 col1" id="slot11" onclick="squareToggle(this)"></td> 
-                <td class="row3 col2" id="slot12" onclick="squareToggle(this)"></td> 
-                <td class="row3 col3 tlbr bltr" id="slot13" onclick="squareToggle(this)">Sales Hub</td> 
-                <td class="row3 col4" id="slot14" onclick="squareToggle(this)"></td> 
-                <td class="row3 col5" id="slot15" onclick="squareToggle(this)"></td> 
+                <td class="popout" id="row3">ROW3</td>
+                <td class="row3 col1" id="slot11"></td> 
+                <td class="row3 col2" id="slot12"></td> 
+                <td class="row3 col3 tlbr bltr" id="slot13">Sales Hub</td> 
+                <td class="row3 col4" id="slot14"></td> 
+                <td class="row3 col5" id="slot15"></td> 
             </tr><tr> 
-                <td class="popout" id="row4" onclick="toggleLines(this)">ROW4</td>
-                <td class="row4 col1" id="slot16" onclick="squareToggle(this)"></td> 
-                <td class="row4 col2 bltr" id="slot17" onclick="squareToggle(this)"></td> 
-                <td class="row4 col3" id="slot18" onclick="squareToggle(this)"></td> 
-                <td class="row4 col4 tlbr" id="slot19" onclick="squareToggle(this)"></td> 
-                <td class="row4 col5" id="slot20" onclick="squareToggle(this)"></td> 
+                <td class="popout" id="row4">ROW4</td>
+                <td class="row4 col1" id="slot16"></td> 
+                <td class="row4 col2 bltr" id="slot17"></td> 
+                <td class="row4 col3" id="slot18"></td> 
+                <td class="row4 col4 tlbr" id="slot19"></td> 
+                <td class="row4 col5" id="slot20"></td> 
             </tr><tr> 
-                <td class="popout" id="row5" onclick="toggleLines(this)">ROW5</td>
-                <td class="row5 col1 bltr" id="slot21" onclick="squareToggle(this)"></td> 
-                <td class="row5 col2" id="slot22" onclick="squareToggle(this)"></td> 
-                <td class="row5 col3" id="slot23" onclick="squareToggle(this)"></td> 
-                <td class="row5 col4" id="slot24" onclick="squareToggle(this)"></td> 
-                <td class="row5 col5 tlbr" id="slot25" onclick="squareToggle(this)"></td> 
+                <td class="popout" id="row5">ROW5</td>
+                <td class="row5 col1 bltr" id="slot21"></td> 
+                <td class="row5 col2" id="slot22"></td> 
+                <td class="row5 col3" id="slot23"></td> 
+                <td class="row5 col4" id="slot24"></td> 
+                <td class="row5 col5 tlbr" id="slot25"></td> 
             </tr>
             <tr>
                 <td colspan="5" style="display:none;"></td>
