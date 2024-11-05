@@ -38,9 +38,7 @@ function recursiveFilter(modSeedList,modList,finalList){
     //remember to filter the modlist
     //this won't work if you don't filter it after you go through the trouble of marking which ones off the list
     modList=modList.filter(isFound => isFound.found!=true);
-
     return finalList = recursiveFilter(dupeArr,modList,finalList);
-
 }
 
 function fillTable(finalList){
@@ -66,15 +64,13 @@ function shuffle(){
         modList=$.merge(modList,JSON.parse(JSON.stringify(unmodDevList)));	
         //this is just like a surprise shit post fn
         var chance=2;
-        var limit=Math.floor(Math.random()*500); //change the limit to be a bit higher in PRD
+        var limit=Math.floor(Math.random()*500);
             if(chance>=limit){
             $('#slot'+13).empty().append("Sales Hub is binned!");
         }
     }
-    
     //this filters the array and returns the final array to be used for filling the card
     return finalList=recursiveFilter(modSeedList,modList,finalList);
-
 }
 
 //clears the greensquare css
