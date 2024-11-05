@@ -3,12 +3,21 @@ This was a project that was sparked by a gaia user's comment about making a bing
 
 [Gaia Sales Bingo](https://hauntedvcr.github.io/GaiaSaleBingo/)
 
-## New Features/Fixes
+## V0.2.1 Notes
+- [x] Generate cards based on seeds
+- [x] Add ability to enter a seed to generate card
+  * Minor code clean up and optmization
+
+## V0.1.3 Notes
+- [x] Update script to automatically change the banner during the appropriate sale time
+  * Minor code clean up
+  * Removed old banner image and updated to a more evergreen variant
+ 
+## V0.1.2 Notes
 - [x] Dark mode toggle
-- [x] Supports mobile view
+- [x] Support mobile view
 - [x] Cards no longer with have repeats
+  * Minor code clean up and optimization
 
 ## Upcoming features
-- [ ] Generate cards based on seeds
-- [ ] Add ability to enter a seed to generate card
 - [ ] Add a way to keep dark/light mode setting upon refresh
