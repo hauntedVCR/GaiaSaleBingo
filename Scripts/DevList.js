@@ -20,7 +20,6 @@ unmodDevList=[
     {slot:"Color schemes are not matching with the season", found: false},
     {slot:"Barely noticable color difference from another color scheme", found: false},
     {slot:"Overused color scheme on overused recolored item", found: false},
-    {slot:"Kin is a recolor", found: false},
     {slot:"Color scheme themed bundle", found: false},
     {slot:"There's atleast 1 item you like", found: false},
     {slot:"Certain poses from an item are good", found: false},
@@ -81,7 +80,4 @@ unmodDevList=[
     {slot:"Background is the best pose", found: false},
     {slot:"Masculine item is vaguely masculine", found: false},
     {slot:"Past Sales item not discounted", found: false},
-    {slot:"Direct Buy the Most Expensive Tickets", found: false}
-    /*New suggestions start here */
-
 ];

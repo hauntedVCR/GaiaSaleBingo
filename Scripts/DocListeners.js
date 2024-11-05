@@ -12,7 +12,7 @@ $(document).on("keypress", "input", function(e){
 });
 
 //listens for clicks on the squares and toggles their colors
-$(document).on( "click","td", function() {
+$(document).on("click","td", function() {
    var classID=$(this).attr("class");
     if(classID.includes("popout"))
         toggleLines(this);

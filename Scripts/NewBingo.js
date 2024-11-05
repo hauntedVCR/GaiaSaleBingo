@@ -90,3 +90,4 @@ function init(){
     tableHover();
     newCard();
 }
+
