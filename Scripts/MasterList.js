@@ -45,5 +45,11 @@ unmodList=[
 {slot:"Prisma Bundle", found: false},
 {slot:"Homepage banner shows new sales items before release", found: false},
 {slot:"Staff leaks an item before release", found: false},
-{slot:"Waking up early to nab an item", found: false}
+{slot:"Waking up early to nab an item", found: false},
+{slot:"Misleading advertisement", found: false},
+{slot:"Pokemon reference", found: false},
+{slot:"Paw item", found: false},
+{slot:"Kin is a recolor", found: false},
+{slot:"Rectangle silhouette", found: false},
+{slot:"Angels/Demons theme", found: false}
 ];

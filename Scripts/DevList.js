@@ -80,5 +80,12 @@ unmodDevList=[
     {slot:"Background is the best pose", found: false},
     {slot:"Masculine item is vaguely masculine", found: false},
     {slot:"Past Sales item not discounted", found: false},
-    {slot:"Direct Buy the Most Expensive Tickets", found: false}
+    {slot:"Direct Buy the Most Expensive Tickets", found: false},
+    {slot:"Thread drama started by one guy&trade;", found: false},
+    {slot:"One guy&trade; insults artist/art team", found: false},
+    {slot:"One guy&trade; complains about items", found: false},
+    {slot:"One guy&trade; complains about color schemes", found: false},
+    {slot:"Kin is literally a palette swap", found: false},
+    {slot:"Art team centered theme", found: false},
+    {slot:"Item is a reference to streamer culture", found: false}
 ];
