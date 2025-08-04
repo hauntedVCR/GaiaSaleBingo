@@ -55,6 +55,8 @@ unmodList=[
 {slot:"New item is based on popular new media", found: false},
 {slot:"New item is based on folklore", found: false},
 {slot:"Umami Drop style release", found: false},
+{slot:"No sale theme", found: false},
 {slot:"New Prisma item", found: false}
 ];
+
 
