@@ -58,5 +58,3 @@ unmodList=[
 {slot:"No sale theme", found: false},
 {slot:"New Prisma item", found: false}
 ];
-
-
