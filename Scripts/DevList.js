@@ -13,7 +13,7 @@ unmodDevList=[
     {slot:"1 paw bundle", found: false},
     {slot:"New unique paw item", found: false},
     {slot:"Great Value&trade; Final Fantasy theme", found:  false},
-    {slot: "Another zodiac theme", found: false},
+    {slot:"Another zodiac theme", found: false},
     {slot:"Another trunk RIG", found: false},
     {slot:"New artist pet scheme", found: false},
     {slot:"Rebranded old color scheme", found: false},
@@ -87,5 +87,10 @@ unmodDevList=[
     {slot:"One guy&trade; complains about color schemes", found: false},
     {slot:"Kin is literally a palette swap", found: false},
     {slot:"Art team centered theme", found: false},
-    {slot:"Item is a reference to streamer culture", found: false}
+    {slot:"Item is a reference to streamer culture", found: false},
+    {slot:"Gaia commits a war crime", found: false},
+    {slot:"New recolor in user scheme", found: false},
+    {slot:"Obligatory pastel bomb", found: false},
+    {slot:"1 kin pose is barely noticeable", found: false}
 ];
+
