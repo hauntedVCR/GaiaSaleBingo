@@ -56,5 +56,8 @@ unmodList=[
 {slot:"New item is based on folklore", found: false},
 {slot:"Umami Drop style release", found: false},
 {slot:"No sale theme", found: false},
+{slot:"Old color scheme returns", found: false},
+{slot:"New recolor in new color scheme", found: false},
 {slot:"New Prisma item", found: false}
 ];
+
