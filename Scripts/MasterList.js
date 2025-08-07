@@ -60,4 +60,3 @@ unmodList=[
 {slot:"New recolor in new color scheme", found: false},
 {slot:"New Prisma item", found: false}
 ];
-
